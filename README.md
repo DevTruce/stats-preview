@@ -13,23 +13,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/DevTruce/repo_name">
-    <img src="src/imgs/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/DevTruce/stats-preview">
+    <img src="src/imgs/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Stats Preview</h3>
 
   <p align="center">
-    project_description
+    frontend mentor challenge
     <br />
-    <a href="https://github.com/DevTruce/repo_name" target="_blank"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DevTruce/stats-preview" target="_blank"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://devtruce.github.io/repo_name/" target="_blank">View Demo</a>
+    <a href="https://devtruce.github.io/stats-preview/" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/DevTruce/repo_name/issues" target="_blank">Report Bug</a>
+    <a href="https://github.com/DevTruce/stats-preview/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/DevTruce/repo_name/issues" target="_blank">Request Feature</a>
+    <a href="https://github.com/DevTruce/stats-preview/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
@@ -51,7 +51,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -63,11 +62,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](product-link)
+to be made.
 
-Here's a blank template to get started:
-
-- Do a search and replace all with your text editor for the following: `repo_name`, `project_title`, `project_description`,
+<!-- [![Product Name Screen Shot][product-screenshot]](product-link) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,15 +72,13 @@ Here's a blank template to get started:
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
+- [![SASS][sass-icon]][sass-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -96,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/DevTruce/repo_name.git
+   git clone https://github.com/DevTruce/stats-preview.git
    ```
 2. Install NPM packages
    ```sh
@@ -116,23 +111,6 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example-icon)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
-
-See the [open issues](https://github.com/DevTruce/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,24 +162,24 @@ Discord: [Xzypher#9999]()
 <!-- ## GitHub ##-->
 <!-- links -->
 
-[contributors-link]: https://github.com/DevTruce/repo_name/graphs/contributors
-[forks-link]: https://github.com/DevTruce/repo_name/network/members
-[stars-link]: https://github.com/DevTruce/repo_name/stargazers
-[issues-link]: https://github.com/DevTruce/repo_name/issues
-[license-link]: https://github.com/DevTruce/repo_name/blob/master/LICENSE.txt
+[contributors-link]: https://github.com/DevTruce/stats-preview/graphs/contributors
+[forks-link]: https://github.com/DevTruce/stats-preview/network/members
+[stars-link]: https://github.com/DevTruce/stats-preview/stargazers
+[issues-link]: https://github.com/DevTruce/stats-preview/issues
+[license-link]: https://github.com/DevTruce/stats-preview/blob/master/LICENSE.txt
 
 <!-- icons -->
 
-[contributors-icon]: https://img.shields.io/github/contributors/DevTruce/repo_name.svg?style=for-the-badge
-[forks-icon]: https://img.shields.io/github/forks/DevTruce/repo_name.svg?style=for-the-badge
-[stars-icon]: https://img.shields.io/github/stars/DevTruce/repo_name.svg?style=for-the-badge
-[issues-icon]: https://img.shields.io/github/issues/DevTruce/repo_name.svg?style=for-the-badge
-[license-icon]: https://img.shields.io/github/license/DevTruce/repo_name.svg?style=for-the-badge
+[contributors-icon]: https://img.shields.io/github/contributors/DevTruce/stats-preview.svg?style=for-the-badge
+[forks-icon]: https://img.shields.io/github/forks/DevTruce/stats-preview.svg?style=for-the-badge
+[stars-icon]: https://img.shields.io/github/stars/DevTruce/stats-preview.svg?style=for-the-badge
+[issues-icon]: https://img.shields.io/github/issues/DevTruce/stats-preview.svg?style=for-the-badge
+[license-icon]: https://img.shields.io/github/license/DevTruce/stats-preview.svg?style=for-the-badge
 
 <!-- ## Project ## -->
 
 [product-screenshot]: src/imgs/project-view.png
-[product-link]: https://devtruce.github.io/repo_name/
+[product-link]: https://devtruce.github.io/stats-preview/
 
 <!-- ## Tech & Tools ## -->
 <!-- links -->
