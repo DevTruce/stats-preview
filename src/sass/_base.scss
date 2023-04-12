@@ -19,4 +19,12 @@ body {
   font-family: "Inter";
   font-size: $font-medium;
   font-weight: 400;
+
+  color: $color-white--1;
+  background-color: $color-primary;
+
+  //setting pos
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
