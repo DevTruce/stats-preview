@@ -38,7 +38,8 @@
       url(../imgs/image-header-mobile.jpg);
     background-position: 100%;
     background-size: cover;
-    filter: saturate(200%), contrast(80%);
+    // filter: saturate(200%) grayscale(20%);
+    filter: contrast(180%) brightness(60%);
 
     @include respond(desktop) {
       width: 100%;
@@ -72,6 +73,18 @@
     margin-bottom: 4rem;
     color: rgba($color-white--3, 0.6);
     padding: 0 2rem;
+
+    @include respond(desktop) {
+      width: 70%;
+    }
+
+    span {
+      display: block;
+
+      @include respond(desktop) {
+        display: inline;
+      }
+    }
 
     @include respond(desktop) {
       grid-column: 1 / 2;

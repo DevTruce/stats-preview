@@ -21,6 +21,18 @@ $font-huge: 3rem; // 30px
 //////////////////////////////////////////////////
 // MEDIA QUERY MANAGER
 @mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 17.8125em) {
+      // 285px and under
+      @content;
+    }
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      // 600px and under
+      @content;
+    }
+  }
   @if $breakpoint == desktop {
     @media only screen and (min-width: 56.25em) {
       // 900px and up
