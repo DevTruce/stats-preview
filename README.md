@@ -111,6 +111,7 @@ to be made.
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+You can use this project for anything if you would like, It was completed as a code challenge and I might add onto it in the future.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
