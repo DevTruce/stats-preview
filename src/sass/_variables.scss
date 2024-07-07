@@ -1,0 +1,51 @@
+//////////////////////////////////////////////////
+// COLORS
+
+$color-primary: hsl(233, 47%, 7%);
+$color-secondary: hsl(244, 38%, 16%);
+$color-tertiary: hsl(277, 64%, 61%);
+$color-blue: hsl(228, 45%, 44%);
+
+$color-white--1: hsl(0, 0%, 100%);
+$color-white--2: hsla(0, 0%, 100%, 0.75);
+$color-white--3: hsla(0, 0%, 100%, 0.6);
+
+//////////////////////////////////////////////////
+// FONTS
+
+$font-small: 1.2rem; // 12px
+$font-medium: 1.5rem; // 15px
+$font-large: 2rem; // 22rpx
+$font-huge: 3rem; // 30px
+
+//////////////////////////////////////////////////
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 17.8125em) {
+      // 285px and under
+      @content;
+    }
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      // 600px and under
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 56.25em) {
+      // 900px and up
+      @content;
+    }
+  }
+}
+
+// # Front-end Style Guide
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px

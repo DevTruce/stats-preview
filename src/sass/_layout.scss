@@ -1,0 +1,145 @@
+//////////////////////////////////////////////////
+//
+.card {
+  height: 78rem;
+  width: 32.7rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.7rem;
+  background-color: $color-secondary;
+
+  @include respond(desktop) {
+    height: 46.6rem;
+    width: 111rem;
+    padding-bottom: 0;
+    padding-left: 7.5rem;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: start;
+
+    // grid-template-rows: repeat(6, min-content);
+  }
+
+  &__img {
+    width: 100%;
+    height: 30%;
+    border-radius: 0.7rem 0.7rem 0 0;
+    display: block;
+
+    background-image: linear-gradient(
+        rgba($color-tertiary, 0.5),
+        rgba($color-tertiary, 0.5)
+      ),
+      url(../imgs/image-header-mobile.jpg);
+    background-position: 100%;
+    background-size: cover;
+    // filter: saturate(200%) grayscale(20%);
+    filter: contrast(180%) brightness(60%);
+
+    @include respond(desktop) {
+      width: 100%;
+      height: 100%;
+      grid-column: 2 / -1;
+      grid-row: 1 / span 10;
+      border-radius: 0 0.7rem 0.7rem 0;
+      background-image: linear-gradient(
+          rgba($color-tertiary, 0.5),
+          rgba($color-tertiary, 0.5)
+        ),
+        url(../imgs/image-header-desktop.jpg);
+    }
+  }
+  &__header {
+    font-size: 2.8rem;
+    padding: 3.5rem 2rem 2rem 2rem;
+
+    @include respond(desktop) {
+      grid-column: 1 / 2;
+      padding: 5rem 10rem 3rem 0;
+      font-size: 3.6rem;
+    }
+
+    span {
+      color: $color-tertiary;
+    }
+  }
+  &__paragraph {
+    line-height: 2.5rem;
+    margin-bottom: 4rem;
+    color: rgba($color-white--3, 0.6);
+    padding: 0 2rem;
+
+    @include respond(desktop) {
+      width: 70%;
+    }
+
+    span {
+      display: block;
+
+      @include respond(desktop) {
+        display: inline;
+      }
+    }
+
+    @include respond(desktop) {
+      grid-column: 1 / 2;
+      padding: 0;
+    }
+  }
+  &__stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include respond(desktop) {
+      grid-column: 1 / 2;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    &-stat {
+      height: 5rem;
+      font-size: 2.4rem;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      @include respond(desktop) {
+        align-items: flex-start;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 3.5rem;
+
+        @include respond(desktop) {
+          margin-bottom: 0;
+
+          &:not(:last-child) {
+            margin-right: 3.5rem;
+          }
+        }
+      }
+
+      span {
+        font-family: "Lexend Deca";
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        color: rgba($color-white--3, 0.6);
+
+        @include respond(desktop) {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
