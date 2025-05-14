@@ -18,7 +18,7 @@
 <h3 align="center">Stats Preview</h3>
 
   <p align="center">
-    A stylish and responsive stats preview card.
+    stylish and responsive stats preview card.
     <br />
     <br />
     <a href="https://devtruce.github.io/stats-preview/" target="_blank">View Demo</a>
